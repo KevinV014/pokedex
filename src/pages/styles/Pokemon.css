@@ -132,11 +132,19 @@
     margin-bottom: 10px;
 }
 
+.pokemonA__abilitySection{
+  height: 100;
+  margin-bottom: 25px;
+}
+
 .pokemonA__ability-container{
-    height: 40px;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 2rem;
 }
+
+
 
 .pokemonA__type {
     margin-right: 15px;
