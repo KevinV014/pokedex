@@ -54,15 +54,26 @@ html{
  }
 
  .pokedexHome__img {
-  display: grid;
-  place-content: center;
+  display: flex;
+  justify-content: center;
   margin-bottom: 30px;
+  margin-top: 70px;
  }
 
  .pokedexHome__text {
   display: grid;
   grid-template-rows: 40px 70px ;
   place-content: center;
+ }
+
+ .pokedexHome__containerText{
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 30px;
+ }
+
+ .podedexHome__containerAsh{
+  width: 220px;
  }
 
  .pokedexHome__text-h2 {

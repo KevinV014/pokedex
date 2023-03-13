@@ -17,20 +17,26 @@ const Home = () => {
         <div className='pokedexHome__img'>
           <img src="/images/Pokedex.png" alt="Img" />
         </div>
-        <div className='pokedexHome__text'>
-        <h2 className='pokedexHome__text-h2'>Hello Trainer!</h2>
-        <p className='pokedexHome__text-p'>Give me your name to start</p>
-        <form onSubmit={handleSubmit}>
-          <input
-          required
-          type="text" 
-          id='nameTrainer' 
-          placeholder='Your name...'
-          autoComplete="off"
-          />
-          <button>Start</button>
-        </form>
+        <div className='pokedexHome__containerText'>
+          <div className='podedexHome__containerAsh'>
+          <img className='podexHome__ash' src="/images/ash.png" alt="Img" />
+          </div>
+          <div className='pokedexHome__text'>
+            <h2 className='pokedexHome__text-h2'>Hello Trainer!</h2>
+            <p className='pokedexHome__text-p'>Give me your name to start</p>
+            <form onSubmit={handleSubmit}>
+              <input
+              required
+              type="text" 
+              id='nameTrainer' 
+              placeholder='Your name...'
+              autoComplete="off"
+              />
+              <button>Start</button>
+            </form>
+          </div>
         </div>
+        
       </section>
     </main>
   )
